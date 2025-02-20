@@ -1,0 +1,37 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "id": "EMIT_L1B_RAD_001_20231206T160939_2334011_006",
+  "geometry": null,
+  "properties": {
+    "datetime": "2025-02-20T21:16:18.653573Z",
+    "start_datetime": "2025-02-20T21:16:18.653573+00:00",
+    "end_datetime": "2025-02-20T21:16:18.653588+00:00",
+    "created": "2025-02-20T21:16:18.653592+00:00",
+    "updated": "2025-02-20T21:16:32.537235Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "./catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "radiance": {
+      "href": "./EMIT_L1B_RAD_001_20231206T160939_2334011_006.nc",
+      "title": "radiance file"
+    },
+    "observation": {
+      "href": "./EMIT_L1B_OBS_001_20231206T160939_2334011_006.nc",
+      "title": "observation file"
+    }
+  },
+  "collection": "EMIT_L1B_RAD"
+}
