@@ -14,22 +14,22 @@
   "links": [
     {
       "rel": "root",
-      "href": "./catalog.json",
+      "href": "https://raw.githubusercontent.com/brianlee731/SBG-unity-preprocess-mod/refs/heads/main/test/stage-in/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "parent",
-      "href": "./catalog.json",
+      "href": "https://raw.githubusercontent.com/brianlee731/SBG-unity-preprocess-mod/refs/heads/main/test/stage-in/catalog.json",
       "type": "application/json"
     }
   ],
   "assets": {
     "radiance": {
-      "href": "./EMIT_L1B_RAD_001_20231206T160939_2334011_006.nc",
+      "href": "https://raw.githubusercontent.com/brianlee731/SBG-unity-preprocess-mod/refs/heads/main/test/stage-in/EMIT_L1B_RAD_001_20231206T160939_2334011_006.nc",
       "title": "radiance file"
     },
     "observation": {
-      "href": "./EMIT_L1B_OBS_001_20231206T160939_2334011_006.nc",
+      "href": "https://raw.githubusercontent.com/brianlee731/SBG-unity-preprocess-mod/refs/heads/main/test/stage-in/EMIT_L1B_OBS_001_20231206T160939_2334011_006.nc",
       "title": "observation file"
     }
   },
